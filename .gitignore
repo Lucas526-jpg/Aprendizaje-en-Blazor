@@ -52,3 +52,13 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Ignorar archivos de configuración con secretos (Ciberseguridad)
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignorar configuración de usuario de VS Code
+.vscode/
+
+# Archivos temporales de Linux (ya que usas Mint)
+.DS_Store
