@@ -1,17 +1,37 @@
-# 🚀 Mi Camino en Blazor y .NET
+# Contador y suma de un componente
 
-Bienvenido a mi repositorio de aprendizaje. Aquí documento mi progreso, desde los conceptos básicos hasta aplicaciones funcionales, registrando no solo el código, sino también **los problemas que resolví** y los conceptos de Ciberseguridad que apliqué.
+## Presentación
 
-## 📚 Índice de Proyectos
+Este proyecto fue realizado mientras aprendia en la plataforma de **Microsoft Learn**.  
+👉 [Ver módulo original aquí](https://learn.microsoft.com/es-mx/training/modules/build-your-first-blazor-web-app).
 
-| # | Proyecto | Descripción | Tecnologías Clave | Estado |
-|:-:|:---|:---|:---|:-:|
-| 01 | [**Hola Mundo**](./01-HolaMundo) | Mi primer componente y estructura básica. | Blazor Wasm, HTML | ✅ |
-| 02 | [**Contador Avanzado**](./Compilacion-de-blazor) | Uso de parámetros para configurar componentes. | C#, Atributo `[Parameter]` | ✅ |
-<!--| 03 | [**Hacker Terminal**](./04-HackerTerminal) | Interfaz estilo Linux simulada en web. | CSS Grid, Eventos de Teclado | 🔜 |-->
+El objetivo principal fue profundizar en las bases de **Blazor**, entendiendo cómo funcionan los componentes, la inyección de parámetros y la reutilización de código.
 
----
+### 🛠️ Entorno de Desarrollo
 
-## 💡 Notas Globales
-* Todo el desarrollo se realiza en **Linux Mint** con **VS Code**.
-* Enfocado en **Clean Code** y principios de seguridad.
+* **Sistema Operativo:** Linux Mint
+* **IDE:** Visual Studio Code
+* **Framework:** .NET 10 (Blazor WebAssembly)
+
+## Tabla de contenidos
+
+- [Presentacion del proyecto](#Presentación)
+  * [Iniciar proyecto dotnet](#Iniciar-proyecto-dotnet)
+  * [Estructura del proyecto](#Estructura-del-proyecto)
+  * [Agrego componentes](#Agrego-componentes)
+  * [Agrego atributos](#output)
+  * [Compilar](#remote-enumeration)
+  * [Que aprendi?](#building-your-own-modules)
+  * [Comandos usados](#building-your-own-modules)
+
+## Iniciar-proyecto-dotnet
+
+Para empezar, usaremos el siguiente comando para crear un proyecto de blazor:
+
+```bash
+dotnet new blazor -o CarpetaDelProyecto
+```
+
+## Estructura-del-proyecto
+
+## Agrego-componentes
